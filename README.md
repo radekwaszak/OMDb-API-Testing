@@ -1,6 +1,6 @@
 # OMDb API Testing
 
-This project tests the OMDb API (Open Movie Database) to ensure its functionality and correctness. The tests cover various aspects of movie data retrieval, including handling valid and invalid requests, movie details, awards, and more.
+This project tests the [OMDb API](https://www.omdbapi.com/) (Open Movie Database) to ensure its functionality and correctness. The tests cover various aspects of movie data retrieval, including handling valid and invalid requests, movie details, awards, and more.
 
 ### Test Cases Created:
 1. **`test_api_key.py`**: Validates the functionality of the API key, ensuring that the API responds correctly to requests with a valid key.
