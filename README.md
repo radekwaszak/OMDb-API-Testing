@@ -11,6 +11,13 @@ This project tests the OMDb API (Open Movie Database) to ensure its functionalit
 6. **`test_non_existent_movie.py`**: Tests the behavior of the API when a non-existent movie is queried, ensuring that the appropriate error message is returned.
 7. **`test_runtime_with_invalid_movie.py`**: Checks the API's response when an invalid movie title is provided, ensuring that a "movie not found" error is returned.
 
+### API Key Setup
+Since the config.py file that previously contained the API key has been removed from this repository for security reasons, you will need to set up the API key yourself to run the project. To do this, follow these steps:
+1. In the root directory of the project, create a .env file. This file will store your API key.
+2. Open the .env file and add the following line:
+   ```bash
+   OMDB_API_KEY=your_api_key_here
+
 ### How to Run the Tests:
 1. Install dependencies:
    ```bash
